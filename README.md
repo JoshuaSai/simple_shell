@@ -12,3 +12,8 @@
 * Print an error message and display the prompt again if an executable cannot be found.
 * Handle the "end of file" condition `Ctrl-D`
 * Handle errors
+
+---
+## Description of functions
+
+shell.c - header file that contains function prototypes
