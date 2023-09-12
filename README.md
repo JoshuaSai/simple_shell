@@ -16,4 +16,4 @@
 ---
 ## Description of functions
 
-shell.h - header file that contains function prototypes
+simple_shell.h - header file that contains function prototypes
