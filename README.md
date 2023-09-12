@@ -10,4 +10,4 @@
 * Display a prompt and wait for the user to type a command
 * Prompt is displayed again each time a command has been executed
 * Print an error message and display the prompt again if an executable cannot be found.
-* Handle the "end of file" condition ''' "Ctrl-D" '''
+* Handle the "end of file" condition '''Ctrl-D'''
