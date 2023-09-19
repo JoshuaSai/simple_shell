@@ -1,15 +1,22 @@
 #ifndef SHELL_H
 #define SHELL_H
 
+/**
+ * File - shell.h
+ *Author - Joshua and Jecolia
+ *Description - contains all the header files used in the simple shell project
+ */
+
 #include <stdlib.h>
 #include <string.h>
 #include <unistd.h>
 #include <stdio.h>
+#include <stdbool.h>
 
 /**
  * File - shell.h
  * Authors - Joshua and Jecolia
- * Description: A header file containing all the functions prototypes used in the simple shell project.
+ * Description -  containing all the functions prototypes used in the simple shell project.
  */
 
 void display_prompt(void);

@@ -4,5 +4,5 @@
  */
 void display_prompt(void)
 {
-	joshcolia_print("joshcolia_shell#");
+	joshcolia_print("joshcolia_shelli");
 }

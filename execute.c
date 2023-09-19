@@ -1,7 +1,7 @@
 #include "shell.h"
 
 /**
- * execute_command - creates a function that will execute a prompt.
+ *execute_command - creates a function that will execute a prompt.
  *@command - prompt to execute
  */
 
@@ -17,7 +17,7 @@ void execute_command(const char *command)
 	}
 	else if (child_pid == 0)
 	{
-		execlp(command, command, (char *NULL));
+		execlp(command, command, (char *)NULL);
 		perror("execlp");
 		exit(EXIT_FAILURE);
 	}
