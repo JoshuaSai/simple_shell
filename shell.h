@@ -17,7 +17,7 @@
 /**
  * File - shell.h
  * Authors - Joshua and Jecolia
- * Description -  containing all the functions prototypes used in the simple shell project.
+ * Description - containing all the functions prototypes for the simple shell project.
  */
 
 void show_prompt(void);

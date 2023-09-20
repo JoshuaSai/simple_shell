@@ -2,7 +2,7 @@
 
 /**
  *exec_command - creates a function that will execute a prompt.
- *@input_command - prompt to execute
+ *@input_command: prompt to execute
  */
 
 void exec_command(const char *input_command)

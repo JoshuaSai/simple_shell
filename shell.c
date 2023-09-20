@@ -2,6 +2,7 @@
 /**
  * main - that is the main function
  *
+ * Return: always 0 success
  */
 
 int main(void)
@@ -12,8 +13,8 @@ int main(void)
 	while (1)
 	{
 		show_prompt();
-		user_input (input_command, sizeof(input_command));
+		user_input(input_command, sizeof(input_command));
 		exec_command(input_command);
 	}
-return 0;
+return (0);
 }

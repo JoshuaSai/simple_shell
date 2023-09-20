@@ -1,9 +1,7 @@
 #include "shell.h"
 
 /**
- * show_promt - display the prompt of the j shell
- *
- * return: nothing
+ * show_prompt - display the prompt of the shell
  */
 
 void show_prompt(void)
