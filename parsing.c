@@ -21,3 +21,4 @@ void user_input(char *input_command, size_t length)
 		}
 	}
 	input_command[strcspn(input_command, "\n")] = '\0';
+}

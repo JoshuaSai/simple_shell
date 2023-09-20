@@ -12,8 +12,8 @@ int main(void)
 	while (1)
 	{
 		show_prompt();
-		get_commands (input_command, sizeof(input_command));
-		run_commands(input_command);
+		user_input (input_command, sizeof(input_command));
+		exec_command(input_command);
 	}
 return 0;
 }
