@@ -19,9 +19,10 @@
  * Description -  containing all the functions prototypes used in the simple shell project.
  */
 
-void display_prompt(void);
-void j_print(const char *print format);
-void read_command(char *command, size_t size);
-void execute_command(const char *command);
-
+void show_prompt(void);
+void j_print(const char *format);
+void get_commands(char *input_command, size_t size);
+void run_commands(const char *input_command);
+void exec_command(const char *input_command);
+void user_input(char *input_command, size_t length);
 #endif

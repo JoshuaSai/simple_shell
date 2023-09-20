@@ -1,19 +1,19 @@
 #include "shell.h"
 /**
- * main - contains the entry point or main function
+ * main - that is the main function
  *
  */
 
 int main(void)
 
 {
-	char command[130];
+	char input_command[130];
 
 	while (1)
 	{
-		display_prompt();
-		read_command (command, sizeof(command));
-		execute_command(command);
+		show_prompt();
+		get_commands (input_command, sizeof(input_command));
+		run_commands(input_command);
 	}
 return 0;
 }
