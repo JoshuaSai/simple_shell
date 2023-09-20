@@ -20,7 +20,7 @@
  */
 
 void display_prompt(void);
-void joshcolia_print(const char *print format);
+void joshcolia_print(const char *format);
 void read_command(char *command, size_t size);
 void execute_command(const char *command);
 

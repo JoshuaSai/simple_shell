@@ -12,17 +12,17 @@ void execute_command(const char *command)
 	if (child_pid == -1)
 
 	{
-		perror("fork");
+		joshcolia_print("fork");
 		exit(EXIT_FAILURE);
 	}
 	else if (child_pid == 0)
 	{
-		execlp(command, command, (char *)NULL);
-		perror("execlp");
+		execlp(command, command, (char *NULL));
+		perror("execlp);
 		exit(EXIT_FAILURE);
 	}
 	else
 	{
-		wait(NULL)
+		wait(NULL);
 	}
 }
