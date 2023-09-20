@@ -14,11 +14,6 @@
 #include <stdbool.h>
 #include <sys/types.h>
 #include <sys/wait.h>
-/**
- * File - shell.h
- * Authors - Joshua and Jecolia
- * Description - containing all the functions prototypes for the simple shell project.
- */
 
 void show_prompt(void);
 void j_print(const char *format);
