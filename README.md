@@ -17,3 +17,5 @@
 ## Description of functions
 
 simple_shell.h - header file that contains function prototypes
+
+j_print - this is our printf function , as both our name start with j this function is called `j_print`
