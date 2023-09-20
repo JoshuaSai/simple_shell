@@ -70,4 +70,41 @@ typedef struct sep_list_s
  * @next: next node
  * Description: single linked list to store command lines
  */
+typedef struct line_list
+{
+	char *line;
+	struct line_list *next;
+} line_list;
+
+/**
+ * struct variable_list -single linked list
+ * @len_var: length of the variable
+ * @value: value of the variable
+ * @len_value: length of the value
+ * @next: next node
+ * Description: single linked list
+ */
+typedef struct variable_list
+{
+	int len_var;
+	char *value;
+	int len_value;
+	struct variable_list *next;
+} variable;
+
+/**
+ * struct builtin_s - Builtin struct for command args.
+ * @name: The name of the command builtin i.e cd, exit, env
+ * @f: data type pointer function.
+ */
+typedef struct builtin_s
+{
+	char *name;
+	int (*f)(data_shell *datash);
+} builtin_t;
+
+
+char *_strcat(char *dest, const char *src);
+char *_strcpy(char *dest, char *src);
+int _strcmp(
 #endif
